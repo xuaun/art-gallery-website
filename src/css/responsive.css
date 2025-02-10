@@ -46,7 +46,8 @@
   .hero__pic {
     position: relative;
     top: 0;
-    left: -1.6rem;
+    left: 0;
+    min-width: 37.5rem;
   }
 }
 
