@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/variables.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./src/assets/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Art gallery website</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta
+      name="description"
+      content="Art gallery website challenge from Frontend Mentor - coded by João Víctor de Araujo Lima"
+    />
+    <meta
+      name="keywords"
+      content="Frontend Mentor, coding, front-end, challenge, projects"
+    />
+    <meta name="author" content="João Víctor de Araujo Lima" />
+    <meta name="language" content="English" />
+    <meta name="generator" content="Visual Studio Code" />
+  </head>
+  <body class="page">
+    <main class="main">
+      <section class="hero">
+        <picture class="hero__pic">
+          <source
+            media="(max-width: 776px)"
+            srcset="./src/assets/mobile/image-hero.jpg"
+          />
+          <source
+            media="(max-width: 912px)"
+            srcset="./src/assets/tablet/image-hero.jpg"
+          />
+          <img
+            src="./src/assets/desktop/image-hero.jpg"
+            alt="Two people looking at a painting on our wall"
+            title="Come visit us!"
+            class="hero__img"
+          />
+        </picture>
+        <h1 class="hero__header">Modern Art Gallery</h1>
+        <div class="hero__body">
+          <p class="hero__text">
+            The arts in the collection of the Modern Art Gallery all started
+            from a spark of inspiration. Will these pieces inspire you? Visit us
+            and find out.
+          </p>
+          <a href="./location/location.html" class="hero__btn"
+            ><p class="hero__btn-text">Our location</p>
+            <img
+              src="./src/assets/icon-arrow-right.svg"
+              class="hero__btn-arrow"
+          /></a>
+        </div>
+      </section>
+      <section class="content">
+        <div class="content__body">
+          <h2 class="content__header">Your day at the gallery</h2>
+          <p class="content__text">
+            Wander through our distinct collections and find new insights about
+            our artists. Dive into the details of their creative process.
+          </p>
+        </div>
+
+        <picture class="content__grid-pic">
+          <source
+            media="(max-width: 704px)"
+            srcset="./src/assets/mobile/image-grid-1.jpg"
+          />
+          <source
+            media="(max-width: 768px)"
+            srcset="./src/assets/tablet/image-grid-1.jpg"
+          />
+          <img
+            src="./src/assets/desktop/image-grid-1.jpg"
+            alt="Our exhibition with numerous works of art"
+            title="We have a lot of art exhibitions for you"
+            class="content__img"
+          />
+        </picture>
+
+        <picture class="content__grid-pic">
+          <source
+            media="(max-width: 704px)"
+            srcset="./src/assets/mobile/image-grid-2.jpg"
+          />
+          <source
+            media="(max-width: 768px)"
+            srcset="./src/assets/tablet/image-grid-2.jpg"
+          />
+          <img
+            src="./src/assets/desktop/image-grid-2.jpg"
+            alt="An empty bench and a painting on the wall right in front of it"
+            title="We have comfort for you and your family"
+            class="content__img"
+          />
+        </picture>
+
+        <picture class="content__grid-pic">
+          <source
+            media="(max-width: 704px)"
+            srcset="./src/assets/mobile/image-grid-3.jpg"
+          />
+          <source
+            media="(max-width: 768px)"
+            srcset="./src/assets/tablet/image-grid-3.jpg"
+          />
+          <img
+            src="./src/assets/desktop/image-grid-3.jpg"
+            alt="People looking at our exhibitions"
+            title="We have exhibitions for all tastes and ages"
+            class="content__img"
+          />
+        </picture>
+
+        <div class="content__body">
+          <h2 class="content__header">Come &amp; be inspired</h2>
+          <p class="content__text">
+            We’re excited to welcome you to our gallery and see how our
+            collections influence you.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <img
+        src="./src/assets/logo-light.svg"
+        alt="Modern Art Gallery logo"
+        class="footer__img"
+      />
+      <p class="footer__text">
+        The Modern Art Gallery is free to all visitors and open seven days a
+        week from 8am to 9pm. Find us at 99 King Street, Newport, USA.
+      </p>
+      <div class="footer__socials">
+        <a href="#" class="footer__link"
+          ><i class="fa-brands fa-square-facebook"></i
+        ></a>
+        <a href="#" class="footer__link"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="#" class="footer__link"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          class="attribution__link"
+          >Frontend Mentor</a
+        >. Coded by
+        <a
+          href="https://xuaun.github.io/"
+          target="_blank"
+          class="attribution__link"
+          >João Víctor de Araujo Lima</a
+        >.
+      </div>
+    </footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"
+      integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,122 @@
+/* MAIN */
+
+.page-location {
+  background-color: var(--background-location-color);
+}
+
+.main {
+  padding: 0rem;
+}
+
+.main__btn {
+  width: 26.4rem;
+  height: 7.2rem;
+  display: flex;
+  align-items: center;
+  background-color: var(--btn-background);
+  position: absolute;
+  left: clamp(0rem, -5.493rem + 14.648vw, 15.6rem);
+}
+
+.main__btn-text {
+  color: var(--btn-text);
+  padding: 2.4rem 3.2rem 2.4rem 2.9rem;
+  font-family: var(--text-7-family);
+  font-size: var(--text-7-size);
+  font-weight: var(--text-7-weight);
+  line-height: var(--text-7-height);
+  letter-spacing: var(--text-7-spacing);
+  text-transform: uppercase;
+}
+
+.main__btn-arrow {
+  background-color: var(--btn-background-arrow);
+  padding: 2.4rem;
+}
+
+.main__img {
+  object-fit: cover;
+  width: 100%;
+  height: clamp(55rem, 50rem + 13.333vw, 60rem);
+}
+
+/* LOCATION */
+
+.location {
+  padding: clamp(8.8rem, 7.061rem + 2.319vw, 10.4rem)
+    clamp(4rem, -9.587rem + 18.116vw, 16.5rem)
+    clamp(8rem, 2.783rem + 6.957vw, 12.8rem);
+  color: var(--text-light);
+  display: flex;
+  justify-content: space-between;
+}
+
+.location__header {
+  max-width: clamp(22.3rem, 8.496rem + 18.406vw, 35rem);
+  font-family: var(--text-2-family);
+  font-size: var(--text-2-size);
+  font-weight: var(--text-2-weight);
+  line-height: var(--text-2-height);
+  letter-spacing: var(--text-2-spacing);
+  text-transform: uppercase;
+}
+
+.location__body {
+  max-width: clamp(39.8rem, 24.365rem + 20.58vw, 54rem);
+}
+
+.location__street {
+  font-family: var(--text-4-family);
+  font-size: var(--text-4-size);
+  font-weight: var(--text-4-weight);
+  line-height: var(--text-4-height);
+  letter-spacing: var(--text-4-spacing);
+  text-transform: uppercase;
+  color: var(--text-gold);
+}
+
+.location__details,
+.location__text {
+  font-family: var(--text-5-family);
+  font-size: var(--text-5-size);
+  font-weight: var(--text-5-weight);
+  line-height: var(--text-5-height);
+  letter-spacing: var(--text-5-spacing);
+}
+
+.location__details {
+  margin-bottom: clamp(2rem, 1.565rem + 0.58vw, 2.4rem);
+}
+
+.location__text {
+  margin-bottom: clamp(2rem, 0.696rem + 1.739vw, 3.2rem);
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: var(--background-location-footer-color);
+  color: var(--text-dark);
+}
+
+/* HOVER */
+
+.main__btn {
+  transition: 0.3s;
+}
+
+.main__btn-arrow {
+  transition: 0.3s;
+}
+
+.main__btn:hover {
+  background-color: var(--btn-background-hover);
+}
+
+.main__btn:hover .main__btn-arrow {
+  background-color: var(--btn-background-arrow-hover);
+}
+
+.footer__link:hover {
+  color: var(--icon-dark-hover);
+}

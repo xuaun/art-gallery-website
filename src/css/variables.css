@@ -1,0 +1,72 @@
+:root {
+  /* DESIGN SYSTEM */
+  /* COLORS DS */
+  --gold: hsl(24, 56%, 63%);
+  --almost-black: hsl(0, 0%, 8%);
+  --dark-grey: hsl(0, 0%, 27%);
+  --white: hsl(0, 0%, 100%);
+
+  /* TYPOGRAPHY DS */
+  /* TEXT PRESET 1 - HEADING XL */
+  --text-1-family: "Big Shoulders Display", sans-serif;
+  --text-1-size: clamp(6rem, 4.732rem + 3.38vw, 9.6rem);
+  --text-1-weight: 900;
+  --text-1-height: clamp(5.5rem, 4.338rem + 3.099vw, 8.8rem);
+  --text-1-spacing: 0rem;
+  /* TEXT PRESET 2 - HEADING L */
+  --text-2-family: "Big Shoulders Display", sans-serif;
+  --text-2-size: clamp(5rem, 4.296rem + 1.878vw, 7rem);
+  --text-2-weight: 900;
+  --text-2-height: clamp(4.5rem, 3.62rem + 2.347vw, 7rem);
+  --text-2-spacing: 0rem;
+  /* TEXT PRESET 3 - HEADING M */
+  --text-3-family: "Big Shoulders Display", sans-serif;
+  --text-3-size: clamp(5rem, 3.913rem + 1.449vw, 6rem);
+  --text-3-weight: 900;
+  --text-3-height: clamp(4.5rem, 2.87rem + 2.174vw, 6rem);
+  --text-3-spacing: 0rem;
+  /* TEXT PRESET 4 - HEADING S */
+  --text-4-family: "Big Shoulders Display", sans-serif;
+  --text-4-size: clamp(3.2rem, 2.765rem + 0.58vw, 3.6rem);
+  --text-4-weight: 900;
+  --text-4-height: clamp(3.2rem, 2.765rem + 0.58vw, 3.6rem);
+  --text-4-spacing: 0rem;
+  /* TEXT PRESET 5 - BODY M */
+  --text-5-family: "Outfit", sans-serif;
+  --text-5-size: clamp(1.8rem, 1.365rem + 0.58vw, 2.2rem);
+  --text-5-weight: 300;
+  --text-5-height: clamp(2.8rem, 2.365rem + 0.58vw, 3.2rem);
+  --text-5-spacing: 0rem;
+  /* TEXT PRESET 6 - BODY S */
+  --text-6-family: "Outfit", sans-serif;
+  --text-6-size: clamp(1.6rem, 1.383rem + 0.29vw, 1.8rem);
+  --text-6-weight: 300;
+  --text-6-height: clamp(2.6rem, 2.383rem + 0.29vw, 2.8rem);
+  --text-6-spacing: 0rem;
+  /* TEXT PRESET 7 - BTN */
+  --text-7-family: "Big Shoulders Display", sans-serif;
+  --text-7-size: 2rem;
+  --text-7-weight: 800;
+  --text-7-height: 2rem;
+  --text-7-spacing: 0.364rem;
+
+  /* PAGE */
+  /* COLORS */
+  --background-page-color: var(--white);
+  --background-page-2-color: var(--almost-black);
+  --background-location-color: var(--almost-black);
+  --background-page-footer-color: var(--almost-black);
+  --background-location-footer-color: var(--gold);
+  --text-light: var(--white);
+  --text-dark: var(--almost-black);
+  --text-gold: var(--gold);
+  --btn-background: var(--almost-black);
+  --btn-background-hover: var(--gold);
+  --btn-background-arrow: var(--gold);
+  --btn-background-arrow-hover: var(--almost-black);
+  --btn-text: var(--white);
+  --icon-light: var(--text-light);
+  --icon-light-hover: var(--gold);
+  --icon-dark: var(--text-dark);
+  --icon-dark-hover: var(--white);
+}
