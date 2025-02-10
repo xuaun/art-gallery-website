@@ -66,8 +66,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repository](https://your-solution-url.com) and [my Frontend Mentor solution page](https://your-live-site-url.com)
-- Live Site URL: [Live Page](https://your-live-site-url.com)
+- Solution URL: [GitHub Repository](https://github.com/xuaun/art-gallery-website) and [my Frontend Mentor solution page](https://your-live-site-url.com)
+- Live Site URL: [Live Page](https://xuaun.github.io/art-gallery-website/)
 
 ## My process
 
@@ -168,8 +168,8 @@ Os usuários devem ser capazes de:
 
 ### <p id="links-pt">Links</p>
 
-- Link da solução: [Repositório no GitHub](https://github.com/xuaun/huddle-landing-page-with-curved-sections) e a [página da minha solução no Frontend Mentor](https://your-live-site-url.com)
-- Site com a solução: [Página do projeto no ar](https://your-live-site-url.com)
+- Link da solução: [Repositório no GitHub](https://github.com/xuaun/art-gallery-website) e a [página da minha solução no Frontend Mentor](https://your-live-site-url.com)
+- Site com a solução: [Página do projeto no ar](https://xuaun.github.io/art-gallery-website/)
 
 ## Meu processo
 
