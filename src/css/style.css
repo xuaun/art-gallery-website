@@ -114,6 +114,9 @@ html {
   grid-area: body-1;
   color: var(--text-dark);
   max-width: 35rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .content__grid-pic:nth-child(2) {
@@ -166,6 +169,7 @@ html {
   line-height: var(--text-3-height);
   letter-spacing: var(--text-3-spacing);
   margin-bottom: clamp(2.4rem, 1.53rem + 1.159vw, 3.2rem);
+  text-transform: uppercase;
 }
 
 .content__text {
